@@ -1,0 +1,10 @@
+void
+function() {
+  var e, u, f = prompt("Problem");
+  with(Math) try {
+    if (e = parseFloat(eval(f)), isNaN(e)) throw Error("Invalid Expression");
+    void alert("The Answer is: " + e)
+  } catch (a) {
+    alert(a)
+  }
+}();
